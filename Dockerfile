@@ -12,7 +12,7 @@ COPY . .
 
 ENV PORT=3000
 
-ENV MODEL_URL='https://storage.googleapis.com/mlgc-saskya-bucket/submissions-model/model.json'
+ENV MODEL_URL='https://storage.googleapis.com/mlgc-saskya-bucket/model.json'
 
 EXPOSE 3000
 
